@@ -1,0 +1,74 @@
+body{
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-image: url('c40.jpg');
+ background-repeat: no-repeat;
+ background-size: cover;
+ background-position: center;
+  background-color: black;
+  
+ }
+ .container{
+  width: 90%;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+header, footer{
+ background: rgb(0, 0, 0);
+ color: #fff;
+ padding: 20px;
+}
+.historia {
+    margin-bottom: 40px;
+    position: relative;
+  }
+  .side-img {
+    width: 200px;
+    float: right;
+    margin: 0 0 10px 20px;
+    border-radius: 8px;
+  }
+  .membros {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+  }
+  .membro {
+    width: calc(50% - 20px);
+  }
+  .membro img {
+    width: 100%;
+    border-radius: 8px;
+  }
+  .timeline ul {
+    list-style: none;
+    padding-left: 0;
+  }
+  .timeline li {
+    padding: 8px 0;
+    border-left: 3px solid #c00;
+    margin-left: 10px;
+  }
+  .impacto p {
+    font-style: italic;
+    background: rgba(255, 0, 0, 0.664);
+    padding: 15px;
+    border-radius: 8px;
+  }
+  @media(max-width:768px) {
+    .members { flex-direction: column; }
+    .member { width: 100%; }
+    .side-img { float: none; display: block; margin: 20px auto; }
+  }
+
+  .grid-img img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  border: 2px solid #ff0000;
+  box-shadow: 0 0 120px rgba(255, 0, 0, 0.651);
+}
+  
+   
